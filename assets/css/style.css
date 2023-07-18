@@ -354,24 +354,35 @@ body.nav-active { overflow: hidden; }
 }
 
 
+.profile{
+  /* background-color: antiquewhite; */
+  border-radius: 50%;
+}
+
 
 
 
 /*-----------------------------------*\
   #HERO
 \*-----------------------------------*/
-
+/* .section .hero{
+  background-color:antiquewhite;
+  
+} */
 .hero {
-  padding-block-start: calc(var(--section-padding) + 50px);
-  background-color: var(--cultured);
+  background-color: antiquewhite;  
+  /* padding-block-start: calc(var(--section-padding) + 50px); */
+  /* background-color: var(--cultured); */
 }
 
 .hero .container {
+  background-color: antiquewhite;
   display: grid;
   gap: 50px;
 }
 
 .hero-banner {
+  /* background-color: antiquewhite; */
   position: relative;
   max-width: max-content;
   margin-inline: auto;
@@ -511,7 +522,14 @@ body.nav-active { overflow: hidden; }
 
 .project-card .btn-text:is(:hover, :focus-visible) { gap: 10px; }
 
-
+.aboutme{
+  padding-block-end: 0;
+  background-color: var(--snow);
+  padding: 32px;
+  border-radius: var(--radius-8);
+  display: grid;
+  gap: 40px;
+}
 
 
 
@@ -590,6 +608,9 @@ textarea.input-field {
 
 
 
+  .about-card{
+     --padding: 68px;
+  }
   /**
    * PROJECT
    */
@@ -767,7 +788,11 @@ textarea.input-field {
    * HERO
    */
 
-  .hero { padding-block-start: calc(var(--section-padding) + 80px); }
+  .hero { padding-block-start: calc(var(--section-padding) + 80px); 
+    /* background-image:url(/assets/images/wallp.webp); */
+    background-repeat: no-repeat;
+    background: size 1000px;;
+  }
 
   .hero .container {
     grid-template-columns: 0.8fr 1fr;
