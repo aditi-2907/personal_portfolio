@@ -594,7 +594,7 @@ textarea.input-field {
  * responsive for large than 575px screen
  */
 
-@media (min-width: 575px) {
+@media (min-width: 450px) {
 
   /**
    * REUSED STYLE
@@ -606,7 +606,10 @@ textarea.input-field {
     margin-inline: auto;
   }
 
-
+  .textt{
+    font-size:small;
+    width: min-content;
+   }
 
   .about-card{
      --padding: 68px;
@@ -645,7 +648,10 @@ textarea.input-field {
 
   .section-text { --fs-5: 2rem; }
 
-
+.textt{
+  width: auto;
+  font-size: medium;
+}
 
   /**
    * ABOUT
@@ -688,6 +694,7 @@ textarea.input-field {
    * FOOTER
    */
 
+  
   .footer .container {
     display: flex;
     justify-content: space-between;
